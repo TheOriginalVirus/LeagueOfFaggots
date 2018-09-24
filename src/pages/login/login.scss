@@ -1,0 +1,48 @@
+page-login {
+    .loginDiv
+    {
+        
+        position: relative;
+        .loginImg
+        {
+            z-index: -2;
+            width: 100%;
+        }
+
+        .loginIptUsr
+        {
+            position: absolute;
+            z-index: 5;
+            width: 99%;
+            top: 10%;
+            background-color: rgba(0,0,0,0.7);
+            color: rgb(200,170,110)
+        }
+
+        .loginIptPss
+        {
+            position: absolute;
+            z-index: 5;
+            width: 99%;
+            height: 50px;
+            top: 30%;
+            background-color: rgba(0,0,0,0.7);
+            color: rgb(200,170,110)
+        }
+
+        .loginBtn
+        {
+            position: absolute;
+            z-index: 5;
+            width: 100%;
+            margin: 0 auto;
+            height: 40px;
+            top: 75%;
+        }
+
+
+    }
+    .no-scroll .scroll-content{
+        overflow: hidden;
+   }
+}
